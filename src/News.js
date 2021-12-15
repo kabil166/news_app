@@ -24,7 +24,7 @@ function News() {
                     <div className='headlines_header'>Top Headlines</div>
                     <div className="headlines_content">
                     {data ? data.articles.map(news => 
-                    <HeadLines data={news.title} key={news.url} />) : "Loading"}
+                    <HeadLines data={news.title}/>) : "Loading"}
                     </div>
                     
                 </div>
@@ -32,7 +32,7 @@ function News() {
                 <div className="news">
                     {data ? data.articles.filter(news => 
                         {
-                            if(searchTerm==""){
+                            if(searchTerm===""){
                                 return news
                             }else if(news.title.toLowerCase().includes(searchTerm.toLowerCase())||news.description.toLowerCase().includes(searchTerm.toLowerCase())){
                                 // console.log(news.title);

@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 function HeadLines({data}) {
-    console.log(data.url);
     return (
         <div>
             <Title>{'>>'}<a href={data.url}>{data}</a></Title>
