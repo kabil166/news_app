@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function HeadLines({data}) {
     return (
         <div>
-            <Title>{'>>'}<a href={data.url}>{data}</a></Title>
+            <Title>{'>>'}{data}</Title>
         </div>
     )
 }

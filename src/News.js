@@ -50,13 +50,7 @@ function News() {
 
 export default News
 
-const Headlines = styled.p`
-    width:29%;
-    padding:5px;
-    margin:2px;
-    background-color:rgb(151, 155, 158);
 
-`
 
 
 const Header = styled.div`
@@ -64,7 +58,7 @@ const Header = styled.div`
   display: flex;
   align-items:center;
   min-height: 60px;
-  background-color: rgb(26, 24, 24);
+  background-color: transparent;
   margin-bottom:20px;
   padding-bottom:10px;
   top:0;
@@ -74,7 +68,7 @@ const Header = styled.div`
 `
 const HeaderLogo = styled.div`
   font-size: 40px;
-  color:white;
+  color:black;
   margin: 0 20px;
 `
 const SearchForm = styled.div`

@@ -15,6 +15,9 @@
     flex-direction: column;
     overflow-y: scroll;
 }
+.news-headlines::-webkit-scrollbar{
+    display: none;
+}
 .headlines_header{
     position: fixed;
     top:80px;
@@ -37,5 +40,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow-y: scroll;
-    color:rgb(233, 233, 233);
+    color:rgb(234, 238, 20);
+}
+.news::-webkit-scrollbar{
+    display: none;
 }
