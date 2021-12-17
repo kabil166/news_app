@@ -6,7 +6,7 @@ function NewsArticle(props) {
             <ArticleTitle>{props.data.title}</ArticleTitle>
             <ArticleImg
                 style={{
-                    backgroundImage: "url(" + `${props.data.urlToImage}` +")",
+                    backgroundImage: `url(${props.data.urlToImage})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
